@@ -1,4 +1,4 @@
-# ilk 5 veriyi aşağıdaki gibi inceleyebilirsiniz
+#  ilk 5 veriyi aşağıdaki gibi inceleyebilirsiniz
 print(df.head()) 
 
               Invoice ID Branch       City Customer type  Gender  \
