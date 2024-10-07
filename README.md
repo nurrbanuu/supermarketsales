@@ -1,3 +1,14 @@
+# bu veriseti ile çalışırken kullanılan kütüphaneler
+import pandas as pd #dataframe oluşturulmak için kullaılan kütüphanedir.
+import matplotlib.pyplot as plt #grafik oluşturmak için kullanılır
+import seaborn as sns # görselleşitrme için kullanılır
+import warnings 
+warnings.filterwarnings('ignore')
+from scipy import stats # istatistiksel analiz için kullanılır
+from sklearn.model_selection import train_test_split 
+from sklearn.ensemble import RandomForestRegressor # lineer regresyon fonksiyonu çağrılır.
+from sklearn.metrics import mean_squared_error
+
 #  ilk 5 veriyi aşağıdaki gibi inceleyebilirsiniz
 print(df.head()) 
 
