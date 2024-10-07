@@ -1,13 +1,13 @@
-# bu veriseti ile çalışırken kullanılan kütüphaneler
-import pandas as pd #dataframe oluşturulmak için kullaılan kütüphanedir.
-import matplotlib.pyplot as plt #grafik oluşturmak için kullanılır
-import seaborn as sns # görselleşitrme için kullanılır
-import warnings 
-warnings.filterwarnings('ignore')
-from scipy import stats # istatistiksel analiz için kullanılır
-from sklearn.model_selection import train_test_split 
-from sklearn.ensemble import RandomForestRegressor # lineer regresyon fonksiyonu çağrılır.
-from sklearn.metrics import mean_squared_error
+# Kütüphaneler
+Matplotlib: Python'da 2D grafikler ve görselleştirmeler oluşturmak için kullanılan temel kütüphanedir.Genellikle çizgi grafik, çubuk grafik, histogram gibi temel grafikler için tercih edilir.
+
+Seaborn: İstatistiksel verilerin görselleştirilmesi için Matplotlib üzerine inşa edilmiş, daha estetik ve kolay kullanımlı bir kütüphanedir.Isı haritaları, dağılım grafikleri ve kategorik grafikler gibi gelişmiş görselleştirmeler sağlar.
+
+Pandas: Veri analizi ve veri işleme için kullanılan güçlü bir kütüphanedir, veri çerçevesi (DataFrame) yapısıyla çalışır.Veriyi okuma, düzenleme, filtreleme ve analiz etme işlemlerini kolaylaştırır.
+
+Scikit-learn (sklearn): Makine öğrenmesi algoritmalarını kolayca uygulamak için kullanılan popüler bir Python kütüphanesidir.Sınıflandırma, regresyon, kümeleme ve model değerlendirme gibi temel makine öğrenmesi işlemlerini sağlar.
+
+Scipy: Bilimsel ve teknik hesaplamalar için kullanılan bir Python kütüphanesidir.İstatistiksel analizler, optimizasyon, integral hesaplama ve lineer cebir işlemleri için kullanılır.
 
 #  ilk 5 veriyi aşağıdaki gibi inceleyebilirsiniz
 print(df.head()) 
