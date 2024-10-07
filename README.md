@@ -1,15 +1,20 @@
 # Kütüphaneler
-Matplotlib: Python'da 2D grafikler ve görselleştirmeler oluşturmak için kullanılan temel kütüphanedir.Genellikle çizgi grafik, çubuk grafik, histogram gibi temel grafikler için tercih edilir.
+Matplotlib:
+Python'da 2D grafikler ve görselleştirmeler oluşturmak için kullanılan temel kütüphanedir.Genellikle çizgi grafik, çubuk grafik, histogram gibi temel grafikler için tercih edilir.
 
-Seaborn: İstatistiksel verilerin görselleştirilmesi için Matplotlib üzerine inşa edilmiş, daha estetik ve kolay kullanımlı bir kütüphanedir.Isı haritaları, dağılım grafikleri ve kategorik grafikler gibi gelişmiş görselleştirmeler sağlar.
+Seaborn: 
+İstatistiksel verilerin görselleştirilmesi için Matplotlib üzerine inşa edilmiş, daha estetik ve kolay kullanımlı bir kütüphanedir.Isı haritaları, dağılım grafikleri ve kategorik grafikler gibi gelişmiş görselleştirmeler sağlar.
 
-Pandas: Veri analizi ve veri işleme için kullanılan güçlü bir kütüphanedir, veri çerçevesi (DataFrame) yapısıyla çalışır.Veriyi okuma, düzenleme, filtreleme ve analiz etme işlemlerini kolaylaştırır.
+Pandas: 
+Veri analizi ve veri işleme için kullanılan güçlü bir kütüphanedir, veri çerçevesi (DataFrame) yapısıyla çalışır.Veriyi okuma, düzenleme, filtreleme ve analiz etme işlemlerini kolaylaştırır.
 
-Scikit-learn (sklearn): Makine öğrenmesi algoritmalarını kolayca uygulamak için kullanılan popüler bir Python kütüphanesidir.Sınıflandırma, regresyon, kümeleme ve model değerlendirme gibi temel makine öğrenmesi işlemlerini sağlar.
+Scikit-learn (sklearn): 
+Makine öğrenmesi algoritmalarını kolayca uygulamak için kullanılan popüler bir Python kütüphanesidir.Sınıflandırma, regresyon, kümeleme ve model değerlendirme gibi temel makine öğrenmesi işlemlerini sağlar.
 
-Scipy: Bilimsel ve teknik hesaplamalar için kullanılan bir Python kütüphanesidir.İstatistiksel analizler, optimizasyon, integral hesaplama ve lineer cebir işlemleri için kullanılır.
+Scipy: 
+Bilimsel ve teknik hesaplamalar için kullanılan bir Python kütüphanesidir.İstatistiksel analizler, optimizasyon, integral hesaplama ve lineer cebir işlemleri için kullanılır.
 
-#  ilk 5 veriyi aşağıdaki gibi inceleyebilirsiniz
+#  Veri İnceleme (İLK 5)
 print(df.head()) 
 
               Invoice ID Branch       City Customer type  Gender  \
